@@ -1,0 +1,30 @@
+".text.html.vue":
+  "Single File Vue Component":
+    "prefix": "vue"
+    "body": """
+      <template>
+        $1
+      </template>
+      <script>
+      export default {
+        components: {
+          $2
+        },
+        data() {
+          return {
+            $3
+          }
+        },
+        created() {
+
+        },
+        methods: {
+
+        }
+      }
+      </script>
+      <style module>
+        $4
+      </style>
+      
+    """
